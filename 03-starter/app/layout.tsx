@@ -7,7 +7,7 @@ import Providers from './providers';
 import { ClerkProvider } from '@clerk/nextjs';
 
 export const metadata: Metadata = {
-  title: 'HomeAway',
+  title: 'Nomad Haven',
   description: 'Feel at home, away from home.',
 };
 
