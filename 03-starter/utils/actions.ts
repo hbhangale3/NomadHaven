@@ -105,3 +105,18 @@ export const fetchProfileImage = async () => {
       return renderError(error);
     }
   };
+
+  export const updateProfileImageAction = async (
+    prevState: any,
+    formData: FormData
+  ): Promise<{ message: string }> => {
+    const user = await getAuthUser();
+    try {
+      const image = formData.get('image') as File;
+      const validatedFields = validateWithZodSchema(imageSchema, { image });
+  
+      return { message: 'Profile image updated successfully' };
+    } catch (error) {
+      return renderError(error);
+    }
+  };
