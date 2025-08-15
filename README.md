@@ -1,6 +1,7 @@
 # Nomad Haven
 
 Nomad Haven is a modern Airbnb-like rental platform that enables users to list, search, book, and manage rental properties. It features secure authentication, property CRUD operations, image management, category-based search, and **Stripe-powered** payments. Built with **Next.js 14** and **TypeScript**, backed by **Supabase (Postgres + Storage)**, and deployed on **Vercel**.
+ **Note:** The main application source code is located inside the `03-starter` directory.
 
 ---
 
@@ -12,7 +13,7 @@ Nomad Haven is a modern Airbnb-like rental platform that enables users to list, 
 
 ## Screenshots & Features
 
-> All screenshots should be placed in a `/screenshots` folder at the repo root with the exact filenames shown below.
+> All screenshots should be placed in a `03-starter/screenshots` folder at the repo root with the exact filenames shown below.
 
 ---
 
